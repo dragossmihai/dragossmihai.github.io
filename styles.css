@@ -1,6 +1,9 @@
+
+
 .navbar-light .navbar-brand {
-    color: red;
+    color: #424949;
 }
+
 
 /*Styles the jumbotron - check the cheat sheet for more options*/
 .jumbotron {
@@ -13,9 +16,36 @@
       color: white;
       font-size: 4.5rem;
       font-weight: 200;
+      font-weight: normal;
       line-height: 1.1;
+  }
+
+  .lead {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: white;
   }
 
 .jumbotron img {
   height: 100px;
+  }
+
+  .btn-primary {
+      color: #424949;
+      background-color: white;
+      border-color: white;
+  }
+
+.card-img-top {
+  size: cover;
+}
+
+.card-title {
+  color: #424949;
+}
+
+.bottom {
+  background-image: url(orderbox.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   }

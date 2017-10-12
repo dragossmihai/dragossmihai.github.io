@@ -19,7 +19,7 @@
 <!-- Your stuff goes here -->
 <!-- Navbar begins-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"> <img src="logodark.png" alt=""> Team Dragos</a>
+        <a class="navbar-brand" href="index.html"> <img src="logodark.png" alt=""> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,13 +27,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"> <!-- Includes ticket icon--> <i class="fa fa-ticket" aria-hidden="true"></i> BUY TICKETS <span class="sr-only">(current)</span></a>
+              <a class="navbar-brand" href="products.html"> PRODUCTS <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item active">
+              <a class="navbar-brand" href="story.html"> <!-- Includes ticket icon--> <i class="fa fa-heart" aria-hidden="true"></i> STORY</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+            <li class="nav-item active">
+              <a class="navbar-brand" href="order.html"> <i class="fa fa-tag" aria-hidden="true"></i> ORDER</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -50,8 +50,7 @@
         <h1 class="display-3">Made by nature. Mixed by you.</h1>
 
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+
         <p class="lead">
           <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </p>
@@ -59,40 +58,57 @@
 <!-- Jumbotron ends -->
 <!-- Container begins-->
       <div class="container">
-        <!-- Create a row-->
-            <div class="row">
-                <!-- Create two columns (if they are equal leave "col" if you want unequal add "col-sm-9" and "col-sm-3" also add text-center)-->
-                      <div class="col text-center">
-                        <h3>Essential Oils</h3>
-                            <div class="card" style="width: 20rem;">
-                              <img class="card-img-top" src="oils.jpg" alt="Card image cap">
-                                <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                                </div>
-                      </div>
-                      <div class="col text-center">
-                        <h3>Powders and minerals</h3>
-                        <div class="card" style="width: 20rem;">
-                          <img class="card-img-top" src="oils.jpg" alt="Card image cap">
-                            <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                            </div>
-                      </div>
-                      <div class="col text-center">
-                        <h3>Natural fats</h3>
-                        <div class="card" style="width: 20rem;">
-                          <img class="card-img-top" src="oils.jpg" alt="Card image cap">
-                            <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                            </div>
-                      </div>
-                      <div class="col text-center">
 
-            </div>
       </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="oils.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a href="products.html"><h4 class="card-title">Essential Oils</h4></a>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Origin: Europe</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="powders.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a href="products.html"><h4 class="card-title">Clay Powders</h4></a>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Origin: India</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="butter.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a href="products.html"><h4 class="card-title">Natural Butters</h4></a>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Origin: Africa</small>
+          </div>
+        </div>
+      </div>
+<br>
+
+
+      <!-- Jumbotron begins -->
+            <div class="jumbotron text-center" id="bottom"> <!-- if you want it in the middle add "jumbotron text-center"-->
+      <!-- inserts image - change the size in the CSS-->
+              <img src="" alt="">
+              <h1 class="display-3">Get your box delivered monthly.</h1>
+
+              <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+
+              <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              </p>
+            </div>
+      <!-- Jumbotron ends -->
 
 
   </body>
