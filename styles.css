@@ -49,3 +49,39 @@
   background-repeat: no-repeat;
   background-size: cover;
   }
+
+  .jumbotron2
+  {
+    background-image: url(orderbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .lead2 {
+        font-size: 1.25rem;
+        font-weight: 300;
+        color: #424949;
+    }
+
+.display-down
+{
+      color: #66a243;
+      font-size: 4.5rem;
+      font-weight: 200;
+      font-weight: normal;
+      line-height: 1.1;
+  }
+
+  .storytitle
+  { text-align: center;
+    color: #66a243;
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-weight: normal;
+    line-height: 1.1;
+
+  }
+
+.rounded {
+  max-width: 150px;
+  }
