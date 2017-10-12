@@ -18,12 +18,15 @@
       font-weight: 200;
       font-weight: normal;
       line-height: 1.1;
+      text-shadow: 1px 1px 1px black;
   }
 
   .lead {
       font-size: 1.25rem;
       font-weight: 300;
+      font-weight: bold;
       color: white;
+      text-shadow: 1px 1px 1px black;
   }
 
 .jumbotron img {
@@ -60,16 +63,18 @@
     .lead2 {
         font-size: 1.25rem;
         font-weight: 300;
-        color: #424949;
+        color: white;
+        text-shadow: 1px 1px 1px black;
     }
 
 .display-down
 {
-      color: #66a243;
+      color: white;
       font-size: 4.5rem;
       font-weight: 200;
       font-weight: normal;
       line-height: 1.1;
+      text-shadow: 1px 1px 1px black;
   }
 
   .storytitle
