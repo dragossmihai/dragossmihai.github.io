@@ -1,0 +1,21 @@
+.navbar-light .navbar-brand {
+    color: red;
+}
+
+/*Styles the jumbotron - check the cheat sheet for more options*/
+.jumbotron {
+  background-image: url(clay.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.display-3 {
+      color: white;
+      font-size: 4.5rem;
+      font-weight: 200;
+      line-height: 1.1;
+  }
+
+.jumbotron img {
+  height: 100px;
+  }
